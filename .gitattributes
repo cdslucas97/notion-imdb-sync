@@ -1,0 +1,10 @@
+# Normaliza o fim de linha: LF no repositório, automático no checkout de cada SO.
+* text=auto
+
+# Garante LF nos arquivos de texto do projeto (consistência entre Windows/Mac/Linux).
+*.py    text eol=lf
+*.txt   text eol=lf
+*.md    text eol=lf
+*.env   text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
